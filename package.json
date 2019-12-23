@@ -4,10 +4,15 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"start": "nodemon app"
+		"start": "node server",
+		"dev": "nodemon server",
+		"test": "mocha"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.2"
+		"chai": "^4.2.0",
+		"mocha": "^6.2.2",
+		"nodemon": "^2.0.2",
+		"supertest": "^4.0.2"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
